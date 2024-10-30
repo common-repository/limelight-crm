@@ -1,0 +1,253 @@
+/************************************************************************
+ * LimeLight CRM - Wordpress Plugin
+ * Copyright (C) 2017 Lime Light CRM, Inc.
+
+ * This program is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * any later version.
+
+ * You should have received a copy of the GNU General Public License
+ * along with this program.  If not, see <http://www.gnu.org/licenses/>.
+ */
+
+.limelight-button-remove-product {
+	font-size       : 50%;
+	margin-right    : 13px;
+	background-color: #8b0000;
+}
+
+.limelight-button-add-product {
+	font-size       : 50%;
+	margin-left     : 13px;
+	background-color: #4caf50;
+}
+
+.limelight-span-product-photo {
+	float       : left;
+	width       : 80px;
+	text-align  : center;
+	margin-right: 15px;
+}
+
+.limelight-update-warning {
+	color      : red;
+	font-weight: bold;
+}
+
+.limelight-admin-header {
+	color: #91b32b;
+}
+
+.limelight-form-error {
+	color      : red;
+	font-size  : 18px;
+	font-weight: bold;
+	margin-left: 16px;
+	visibility : hidden;
+}
+
+.limelight-form-error-is-active {
+	color      : red;
+	font-size  : 18px;
+	font-weight: bold;
+	margin-left: 16px;
+	visibility : visible;
+}
+
+.limelight-edigital {
+	visibility: hidden;
+}
+
+.limelight-edigital-is-active {
+	visibility: visible;
+}
+
+.limelight-3d {
+	visibility: hidden;
+}
+
+.limelight-3d-is-active {
+	visibility: visible;
+}
+
+.limelight-thank-you-photo {
+	width: 80px;
+}
+
+.limelight-strong {
+	font-weight: bold;
+}
+
+.limelight-button {
+	width        : 175px;
+	height       : 55px;
+	margin-top   : 5px;
+	margin-bottom: 5px;
+	line-height  : normal;
+}
+
+.limelight-loading {
+	position: fixed;
+	z-index : 999;
+	height  : 2em;
+	width   : 2em;
+	overflow: show;
+	margin  : auto;
+	top     : 0;
+	left    : 0;
+	bottom  : 0;
+	right   : 0;
+}
+
+.limelight-loading:before {
+	content         : '';
+	display         : block;
+	position        : fixed;
+	top             : 0;
+	left            : 0;
+	width           : 100%;
+	height          : 100%;
+	background-color: rgba(0,0,0,0.3);
+}
+
+.limelight-spinner {
+	border           : 10px solid rgba(0,0,0,0.3);
+	border-radius    : 50%;
+	border-top       : 10px solid #000000;
+	width            : 75px;
+	height           : 75px;
+	-webkit-animation: limelight-spin 2s linear infinite;
+	animation        : limelight-spin 2s linear infinite;
+}
+
+@-webkit-keyframes limelight-spin {
+	0% {
+		-webkit-transform: rotate(0deg);
+	}
+	100% {
+		-webkit-transform: rotate(360deg);
+	}
+}
+
+@keyframes limelight-spin {
+	0% {
+		transform: rotate(0deg);
+	}
+	100% {
+		transform: rotate(360deg); }
+}
+
+.limelight-form select {
+	width        : 300px;
+	margin-top   : 5px;
+	margin-bottom: 5px;
+	clear        : both;
+}
+
+.limelight-form label {
+	width        : 300px;
+	margin-top   : 5px;
+	margin-bottom: 5px;
+	clear        : both;
+}
+
+.limelight-form input[type='text'] {
+	width        : 300px;
+	margin-top   : 5px;
+	margin-bottom: 5px;
+	clear        : both;
+	font-family  : inherit;
+	display      : inline-block;
+}
+
+.limelight-form input[type='email'] {
+	width        : 300px;
+	margin-top   : 5px;
+	margin-bottom: 5px;
+	clear        : both;
+	font-family  : inherit;
+	display      : inline-block;
+}
+
+.limelight-form input[type='password'] {
+	width        : 300px;
+	margin-top   : 5px;
+	margin-bottom: 5px;
+	clear        : both;
+	font-family  : inherit;
+	display      : inline-block;
+}
+
+.limelight-admin-form select {
+	width        : 225px;
+	margin-top   : 5px;
+	margin-bottom: 5px;
+	clear        : both;
+}
+
+.limelight-admin-form label {
+	width        : 225px;
+	margin-top   : 5px;
+	margin-bottom: 5px;
+	clear        : both;
+}
+
+.limelight-admin-form input[type='text'] {
+	width        : 225px;
+	margin-top   : 5px;
+	margin-bottom: 5px;
+	clear        : both;
+	font-family  : inherit;
+	display      : inline-block;
+}
+
+.limelight-admin-form input[type='email'] {
+	width        : 225px;
+	margin-top   : 5px;
+	margin-bottom: 5px;
+	clear        : both;
+	font-family  : inherit;
+	display      : inline-block;
+}
+
+.limelight-admin-form input[type='password'] {
+	width        : 225px;
+	margin-top   : 5px;
+	margin-bottom: 5px;
+	clear        : both;
+	font-family  : inherit;
+	display      : inline-block;
+}
+
+.limelight-response-body {
+	display           : block;
+	z-index           : 9999;
+	background-color  : #fff;
+	margin            : 20% auto;
+	width             : 430px;
+	border-radius     : 10px;
+	padding           : 15px;
+	-webkit-box-shadow: 0px -1px 33px -6px rgba(0,0,0,0.75);
+	-moz-box-shadow   : 0px -1px 33px -6px rgba(0,0,0,0.75);
+	box-shadow        : 0px -1px 33px -6px rgba(0,0,0,0.75);
+}
+
+.limelight-response-modal {
+	position        : fixed;
+	z-index         : 999;
+	left            : 0;
+	top             : 0;
+	width           : 100%;
+	height          : 100%;
+	overflow        : auto;
+	background-color: rgb(255,255,255);
+	background-color: rgba(255,255,255,0.8);
+}
+
+.hidden-input-field {
+	visibility: hidden;
+	height    : 0;
+	margin    : 0;
+	padding   : 0;
+}
